@@ -69,6 +69,30 @@
 .videos{
     padding: 5px 80px;
 }
+.videos .row .col-md-6{
+  position: relative;
+}
+.videos .row .col-md-6 img{
+  width: 100%;
+}
+.videos .row .col-md-6 .ovarlay{
+  position: absolute;
+  opacity: 0.2;
+  height: 100%;
+  width: 96%;
+  top: 0;
+  right: 11px;
+  background-color: #000;
+  z-index: 5;
+}
+.videos .row .col-md-6 h2{
+  position: absolute;
+  z-index: 25;
+  top: 80%;
+  left: 10%;
+  font-size: 26px;
+  color: #fff;
+}
 .carousel-inner .carousel-item div img{
   width: 200px;
   height: 200px;
@@ -105,4 +129,9 @@ footer{
   text-align: center;
   background-color: #0f5ba3;
   color: #fff;
+}
+
+.all-photos  .row .col-md-12 iframe,
+.all-photos  .row .col-md-6 iframe{
+  border-radius: 15px;
 }
