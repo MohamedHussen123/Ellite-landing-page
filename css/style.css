@@ -1,0 +1,108 @@
+.social-header .container .row .contact-us-btn a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #0f5ba3;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 400px;
+}
+.contact-us-form .row .col-md-6 img {
+  width: 100%;
+}
+.contact-us-form .row .contact-us-contant {
+  background-color: #f0f0f0;
+  padding: 50px 100px;
+}
+.contact-us-form .row .contact-us-contant form h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #04343c;
+}
+.contact-us-form {
+  padding: 5px 80px;
+}
+.contact-us-form .row .contact-us-contant form p {
+  color: #04343c;
+  font-weight: 500;
+}
+.contact-us-contant .input-group input {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  width: 100%;
+  padding: 7px 5px;
+  background-color: transparent;
+}
+.contact-us-contant .input-group input:focus {
+  border: 1px solid #000;
+  color: #8a8a8a;
+}
+.contact-us-contant .need-to .form-check .form-check-input{
+    background-color: transparent;
+    box-shadow: none;
+}
+.contact-us-contant .need-to .form-check .form-check-input:checked{
+    background-color: #0f5ba3;
+    border: 1px solid #0f5ba3;
+}
+.contact-us-contant .submit button{
+    background-color: #0f5ba3;
+    border: none;
+    width: 50%;
+    padding: 10px 60px;
+    margin: 1px auto;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.videos{
+    padding: 5px 80px;
+}
+.carousel-inner .carousel-item div img{
+  width: 200px;
+  height: 200px;
+}
+.quastion{
+  padding: 120px ;
+  background-color: #f0f0f0;
+}
+.quastion .row .col-md-12 h2{
+  color: #0f5ba3;
+  font-size: 62px;
+  font-weight: 500;
+}
+.reports .row .col-md-4 h2{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #ff2d03;
+}
+.reports .row .col-md-4 h5{
+  font-size: 22px;  
+}
+.reports .row .col-md-4 p{
+  font-size: 20px;
+}
+.quactions-answer .row .col-md-12 h2{
+  font-size: 40px;
+  color: #0f5ba3;
+}
+.quactions-answer .row .col-md-12 p{
+  font-size: 20px;
+}
+footer{
+  padding: 50px;
+  text-align: center;
+  background-color: #0f5ba3;
+  color: #fff;
+}

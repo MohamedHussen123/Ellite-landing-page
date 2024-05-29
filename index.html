@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Master Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="social-header p-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="./image/elite-hospital-logo84.png" alt="" />
+          </div>
+          <div class="col-md-6 contact-us-btn text-end p-1">
+            <a href="#"> تواصل معنا </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Instgram</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Video</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+          </ul>
+          <div class="social-link">
+            <a
+              class="text-decoration-none"
+              href="https://www.facebook.com/EliteHospital/"
+              target="_blank"
+            >
+              <svg
+                fill="#4d89c0"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+                />
+              </svg>
+            </a>
+            <a
+              class="text-decoration-none"
+              href="https://x.com/EliteHospit"
+              target="_blank"
+            >
+              <svg
+                fill="#4d89c0"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"
+                />
+              </svg>
+            </a>
+            <a
+              class="text-decoration-none"
+              href="https://www.instagram.com/elite_hospital/"
+              target="_blank"
+            >
+              <svg
+                fill="#4d89c0"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
+            <a
+              class="text-decoration-none"
+              href="https://www.youtube.com/user/EliteMedicalCenter/"
+              target="_blank"
+            >
+              <svg
+                fill="#4d89c0"
+                width="30"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
+                />
+              </svg>
+            </a>
+            <a
+              class="text-decoration-none"
+              href="https://www.linkedin.com/company/%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D8%A7%D9%84%D9%86%D8%AE%D8%A8%D8%A9"
+              target="_blank"
+            >
+              <svg
+                fill="#4d89c0"
+                width="20"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./image/af37a6_93e34b5d9e4b4008bae8865d32ea2705~mv2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/af37a6_a8cab84625504ab48ab18b38866687e2~mv2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/af37a6_b3ca7cf011d4469ba16b2fb18246ecc0~mv2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img
+            class="mb-3"
+            src="./image/20190902_LTB_ALLURION_PICTO_sRGB-380.webp"
+            alt=""
+          />
+          <h4>فقدان الوزن السريع والمستدام</h4>
+          <p class="w-75 m-auto">
+            بعد 6 أشهر من العلاج باستخدام بالون ألوريون ، يفقد المرضى ما بين 10
+            إلى 15 كيلو جرام و10 - 15 %من إجمالي مؤشر كتلة الجسم. أظهرت الدراسات
+            الإكلينيكية التي شملت 95 مريضًا أن 72٪ من نتائج فقدان الوزن مع
+            ألوريون إستمرّت لمدة 12 شهرًا مع المتابعة.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            class="mb-3"
+            src="./image/20191008_LTB_ALLURION_PICTO_CMYK-357.webp"
+            alt=""
+          />
+          <h4>الدعم الذي تحتاجه</h4>
+          <p class="w-75 m-auto">
+            يعدّ بالون ألوريون جزءًا من برنامج فقدان الوزن المصمّم خصيصًا لكم،
+            مع دعم كامل من قبل فريق الرعاية الصحية بالاضافه الي الميزان والساعه
+            الذكيه المتصلان بتطبيق ألوريون علي جوالك
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            class="mb-3"
+            src="./image/20191008_LTB_ALLURION_PICTO_CMYK-375.webp"
+            alt=""
+          />
+          <h4>خسارة وزن سريعة بدون جراحة</h4>
+          <p class="w-75 m-auto">
+            ألوريون فريد من نوعه، بوصفه بالون المعدة الوحيد الذي لا يتطلّب أيّ
+            تدخل جراحي أو تخدير أو تنظير لتدخيله أو ازالته. يمكن وضع بالون
+            ألوريون خلال زيارة قصيرة للطبيب تستغرق 15 دقيقة فقط، كما لا يتطلّب
+            وضع البالون أو إزالته أي عملية جراحية أو تخدير: استمتع بمزايا بالون
+            المعدة الغير جراحي الأول والوحيد في العالم
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid contact-us-form">
+      <div class="row">
+        <div class="col-md-6 contact-us-contant">
+          <form action="">
+            <h2>تواصل معنا</h2>
+            <p>ابدأ رحلتك لفقدان الوزن مع برنامج ألوريون اليوم</p>
+            <div class="input-group d-flex flex-column gap-2">
+              <input
+                type="text"
+                placeholder="الاسم الاول"
+                required
+                name=""
+                id=""
+              />
+              <input
+                type="text"
+                placeholder="اسم العائله"
+                required
+                name=""
+                id=""
+              />
+              <input type="text" placeholder="المدينه" required name="" id="" />
+              <input
+                type="number"
+                placeholder="رقم الهاتف"
+                required
+                name=""
+                id=""
+              />
+              <input type="number" placeholder="العمر" required name="" id="" />
+            </div>
+            <div class="need-to my-2">
+              <label for="" class="mb-2 d-block">أرغب في <span>*</span> </label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="getAdate"
+                />
+                <label class="form-check-label" for="getAdate">
+                  حجز موعد عند طبيب متخصص للبدأ في برنامج ألوريون
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="moreInfo"
+                />
+                <label class="form-check-label" for="moreInfo">
+                  تلقّي المزيد من المعلومات عن برنامج ألوريون
+                </label>
+              </div>
+              <div class="form-check my-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="accepet-all-condition"
+                />
+                <label class="form-check-label" for="accepet-all-condition">
+                  أوافق من خلال تقديم معلوماتي الشخصية في هذا النموذج، على تلقي
+                  مكالمة أو اتصال من مستشار ايلبس لحجز موعداً مع عيادة المتوفر
+                  بها برنامج ايلبس التي أفضلها
+                </label>
+              </div>
+            </div>
+            <div class="submit my-3">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 overflow-hidden">
+          <img
+            class="thumbnail"
+            src="./image/af37a6_4575ae621d53407ca3609dbe36f70902~mv2.webp"
+            alt="image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid videos">
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6 mb-2">
+          <video class="w-100" controls>
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/mp4"
+            />
+            <source
+              src="https://www.allurionksa.com/2568997c-6676-4d8b-a47b-b6a11e40b443"
+              type="video/ogg"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="effects-desc container-fluid my-4">
+      <div
+        id="carouselExampleAutoplaying2"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex gap-3 align-items-center w-50 m-auto">
+              <img
+                src="./image/20190902_LTB_ALLURION_PICTO_sRGB-380 (1).webp"
+                class=""
+                alt="..."
+              />
+              <div>
+                <p>
+                  بعد اربعه اشهر يفرغ البالون ويخرج بشكل طبيعي بدون الحاجه الي
+                  اي اجراء طبي, يستعيد المريض السيطره علي عادات الاكل ويمكنه
+                  الاستمرار في اتخاذ خيارات التغذيه ونمط الحياه الصحيه لاداره
+                  الوزن علي المدي البعيد
+                </p>
+                <h4>الاسبوع 16</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex gap-3 align-items-center w-50 m-auto">
+              <img
+                src="./image/20190902_LTB_ALLURION_PICTO_sRGB-380 (1).webp"
+                class=""
+                alt="..."
+              />
+              <div>
+                <p>
+                  بعد اربعه اشهر يفرغ البالون ويخرج بشكل طبيعي بدون الحاجه الي
+                  اي اجراء طبي, يستعيد المريض السيطره علي عادات الاكل ويمكنه
+                  الاستمرار في اتخاذ خيارات التغذيه ونمط الحياه الصحيه لاداره
+                  الوزن علي المدي البعيد
+                </p>
+                <h4>الاسبوع 16</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex gap-3 align-items-center w-50 m-auto">
+              <img
+                src="./image/20190902_LTB_ALLURION_PICTO_sRGB-380 (1).webp"
+                class=""
+                alt="..."
+              />
+              <div>
+                <p>
+                  بعد اربعه اشهر يفرغ البالون ويخرج بشكل طبيعي بدون الحاجه الي
+                  اي اجراء طبي, يستعيد المريض السيطره علي عادات الاكل ويمكنه
+                  الاستمرار في اتخاذ خيارات التغذيه ونمط الحياه الصحيه لاداره
+                  الوزن علي المدي البعيد
+                </p>
+                <h4>الاسبوع 16</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying2"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying2"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid quastion">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center">هل بالون ألوريون آمن؟</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container reports my-4">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h2>+500</h2>
+          <h5>عياده في أنحاء العالم</h5>
+          <p class="w-75 m-auto">
+            في اكثر من 40 دولة , تدعم آلاف المرضى ليقومون بالتغيير مع بالون كلغ
+            تم إنقاصه من خلال برنامج ألوريون
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>51,284</h2>
+          <h5>بالون ألوريون</h5>
+          <p class="w-75 m-auto">
+            وضعت حتى الآن لمساعدة مرضى في مختلف أنحاء أوروبا والشرق الأوسط في
+            الحصول على وزن صحي
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>99.9%</h2>
+          <h5>نسبة نجاح البلع</h5>
+          <p class="w-75 m-auto">
+            في دراسة سريرية حديثة أجريت على 1,623 مريضًا ، تمكن 99.9 ٪ منهم من
+            ابتلاع بالون ألوريون
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-end my-4 quactions-answer">
+      <div class="row">
+        <div class="col-md-12 my-3">
+          <svg
+            width="40"
+            class="mb-5"
+            fill="#ff2d03"
+            preserveAspectRatio="xMidYMid meet"
+            data-bbox="-0.052 0 200.052 200"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-0.052 0 200.052 200"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+                d="M95.4 137.7c-5.1 0-9.1 4-9.1 9.1 0 5 4.1 9.1 9.1 9.1 5.1 0 9.3-4.1 9.3-9.1 0-5.1-4.1-9.1-9.3-9.1z"
+              ></path>
+              <path
+                d="M98.7 39.9c-17.5 0-25.6 12.9-29 18.4l-.3.5c-.7 1.3-2.1 3.6 1.1 5.8l1.9 1.3c2.7 1.8 4.3.6 5.4-.4.4-.4.9-1.1 1.4-2 2.4-3.8 7.4-11.8 20.5-11.8 12.9 0 17.5 9.7 17.5 18.8 0 8.5-6.4 13.7-13.2 19.3-7 5.7-14.1 11.5-14.1 21.1v10.6c0 2.6 1.6 4.4 4 4.4h3.5c2.6 0 4.2-1.7 4.2-4.4v-10.4c0-4.6 4.6-8.3 9.9-12.5 7.8-6.2 17.6-13.9 17.6-28.7-.2-14.4-9.7-30-30.4-30z"
+              ></path>
+              <path
+                d="M100 0C44.9 0 0 44.9 0 100c0 16.3 4.1 32.5 11.8 47L.2 183.2c-.6 1.8-.1 3.7 1.2 5.1 1.3 1.4 3.2 1.9 5 1.4l34.1-9.3C57.9 193.2 78.4 200 100 200c55.1 0 100-44.9 100-100S155.1 0 100 0zm0 189.8c-20.1 0-39.2-6.6-55.2-19.1-.9-.7-2-1.1-3.2-1.1-.5 0-.9.1-1.4.2l-27.4 7.5 9.3-29.3c.4-1.4.3-2.8-.4-4.1-7.6-13.4-11.5-28.6-11.5-44 0-49.5 40.3-89.8 89.8-89.8s89.8 40.3 89.8 89.8c0 49.6-40.3 89.9-89.8 89.9z"
+              ></path>
+            </g>
+          </svg>
+          <h2>كم يكلف برنامج ألوريون؟</h2>
+          <p class="my-4">
+            ألوريون ليس مجرد "بالون". إنه برنامج مدعوم بالكامل لمساعدتك على
+            تغيير أسلوبك في إنقاص الوزن - والحفاظ عليه. تم تصميم برنامج ألوريون
+            من أجلك. هذا يعني أن السعر قد يختلف بناءً على تعديل نمط الحياة الذي
+            يدعمه فريق الرعاية الصحية والذي يوصي به. اتصل بأقرب عيادة للحصول على
+            سعر وبرنامج منظم من أجلك.
+          </p>
+        </div>
+        <div class="col-md-12 my-3">
+          <svg
+            width="40"
+            class="mb-5"
+            fill="#ff2d03"
+            preserveAspectRatio="xMidYMid meet"
+            data-bbox="-0.052 0 200.052 200"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-0.052 0 200.052 200"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+                d="M95.4 137.7c-5.1 0-9.1 4-9.1 9.1 0 5 4.1 9.1 9.1 9.1 5.1 0 9.3-4.1 9.3-9.1 0-5.1-4.1-9.1-9.3-9.1z"
+              ></path>
+              <path
+                d="M98.7 39.9c-17.5 0-25.6 12.9-29 18.4l-.3.5c-.7 1.3-2.1 3.6 1.1 5.8l1.9 1.3c2.7 1.8 4.3.6 5.4-.4.4-.4.9-1.1 1.4-2 2.4-3.8 7.4-11.8 20.5-11.8 12.9 0 17.5 9.7 17.5 18.8 0 8.5-6.4 13.7-13.2 19.3-7 5.7-14.1 11.5-14.1 21.1v10.6c0 2.6 1.6 4.4 4 4.4h3.5c2.6 0 4.2-1.7 4.2-4.4v-10.4c0-4.6 4.6-8.3 9.9-12.5 7.8-6.2 17.6-13.9 17.6-28.7-.2-14.4-9.7-30-30.4-30z"
+              ></path>
+              <path
+                d="M100 0C44.9 0 0 44.9 0 100c0 16.3 4.1 32.5 11.8 47L.2 183.2c-.6 1.8-.1 3.7 1.2 5.1 1.3 1.4 3.2 1.9 5 1.4l34.1-9.3C57.9 193.2 78.4 200 100 200c55.1 0 100-44.9 100-100S155.1 0 100 0zm0 189.8c-20.1 0-39.2-6.6-55.2-19.1-.9-.7-2-1.1-3.2-1.1-.5 0-.9.1-1.4.2l-27.4 7.5 9.3-29.3c.4-1.4.3-2.8-.4-4.1-7.6-13.4-11.5-28.6-11.5-44 0-49.5 40.3-89.8 89.8-89.8s89.8 40.3 89.8 89.8c0 49.6-40.3 89.9-89.8 89.9z"
+              ></path>
+            </g>
+          </svg>
+          <h2>هل بالون ألوريون أفضل من النظام الغذائي وحده؟</h2>
+          <p class="my-4">
+            أظهرت دراسة سريرية حديثة أنه عند اقتران بالون ألوريون مع برنامج
+            تعديل مكثف لنمط الحياة لمدة 16 أسبوعًا (التغذية والتمارين الرياضية)
+            ، يؤدي بالون ألوريون إلى فقدان الوزن بشكل كبير عند مقارنته بتعديل
+            نمط الحياة فقط. كانت النسبة المئوية للمرضى الذين حققوا 10٪ من إجمالي
+            خسارة وزن الجسم في 16 أسبوعًا 72٪ مع بالون ألوريون مقابل 8٪ مع اتباع
+            نظام غذائي وممارسة الرياضة فقط 10 *** .
+          </p>
+        </div>
+        <div class="col-md-12 my-3">
+          <svg
+            width="40"
+            class="mb-5"
+            fill="#ff2d03"
+            preserveAspectRatio="xMidYMid meet"
+            data-bbox="-0.052 0 200.052 200"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-0.052 0 200.052 200"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+                d="M95.4 137.7c-5.1 0-9.1 4-9.1 9.1 0 5 4.1 9.1 9.1 9.1 5.1 0 9.3-4.1 9.3-9.1 0-5.1-4.1-9.1-9.3-9.1z"
+              ></path>
+              <path
+                d="M98.7 39.9c-17.5 0-25.6 12.9-29 18.4l-.3.5c-.7 1.3-2.1 3.6 1.1 5.8l1.9 1.3c2.7 1.8 4.3.6 5.4-.4.4-.4.9-1.1 1.4-2 2.4-3.8 7.4-11.8 20.5-11.8 12.9 0 17.5 9.7 17.5 18.8 0 8.5-6.4 13.7-13.2 19.3-7 5.7-14.1 11.5-14.1 21.1v10.6c0 2.6 1.6 4.4 4 4.4h3.5c2.6 0 4.2-1.7 4.2-4.4v-10.4c0-4.6 4.6-8.3 9.9-12.5 7.8-6.2 17.6-13.9 17.6-28.7-.2-14.4-9.7-30-30.4-30z"
+              ></path>
+              <path
+                d="M100 0C44.9 0 0 44.9 0 100c0 16.3 4.1 32.5 11.8 47L.2 183.2c-.6 1.8-.1 3.7 1.2 5.1 1.3 1.4 3.2 1.9 5 1.4l34.1-9.3C57.9 193.2 78.4 200 100 200c55.1 0 100-44.9 100-100S155.1 0 100 0zm0 189.8c-20.1 0-39.2-6.6-55.2-19.1-.9-.7-2-1.1-3.2-1.1-.5 0-.9.1-1.4.2l-27.4 7.5 9.3-29.3c.4-1.4.3-2.8-.4-4.1-7.6-13.4-11.5-28.6-11.5-44 0-49.5 40.3-89.8 89.8-89.8s89.8 40.3 89.8 89.8c0 49.6-40.3 89.9-89.8 89.9z"
+              ></path>
+            </g>
+          </svg>
+          <h2>ما هي الآثار الجانبية المحتملة بعد وضع البالون؟</h2>
+          <p class="my-4">
+            يعاني بعض الأشخاص من الغثيان وتشنجات البطن وأحيانًا من القيء بعد وضع
+            البالون. في أغلب الأحوال، يُسيطر الطبيب المختص بحالتك تمامًا على تلك
+            الأعراض باستخدام الأدوية شائعة الاستخدام. 2 11
+          </p>
+        </div>
+        <div class="col-md-12 my-3">
+          <svg
+            width="40"
+            class="mb-5"
+            fill="#ff2d03"
+            preserveAspectRatio="xMidYMid meet"
+            data-bbox="-0.052 0 200.052 200"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-0.052 0 200.052 200"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+                d="M95.4 137.7c-5.1 0-9.1 4-9.1 9.1 0 5 4.1 9.1 9.1 9.1 5.1 0 9.3-4.1 9.3-9.1 0-5.1-4.1-9.1-9.3-9.1z"
+              ></path>
+              <path
+                d="M98.7 39.9c-17.5 0-25.6 12.9-29 18.4l-.3.5c-.7 1.3-2.1 3.6 1.1 5.8l1.9 1.3c2.7 1.8 4.3.6 5.4-.4.4-.4.9-1.1 1.4-2 2.4-3.8 7.4-11.8 20.5-11.8 12.9 0 17.5 9.7 17.5 18.8 0 8.5-6.4 13.7-13.2 19.3-7 5.7-14.1 11.5-14.1 21.1v10.6c0 2.6 1.6 4.4 4 4.4h3.5c2.6 0 4.2-1.7 4.2-4.4v-10.4c0-4.6 4.6-8.3 9.9-12.5 7.8-6.2 17.6-13.9 17.6-28.7-.2-14.4-9.7-30-30.4-30z"
+              ></path>
+              <path
+                d="M100 0C44.9 0 0 44.9 0 100c0 16.3 4.1 32.5 11.8 47L.2 183.2c-.6 1.8-.1 3.7 1.2 5.1 1.3 1.4 3.2 1.9 5 1.4l34.1-9.3C57.9 193.2 78.4 200 100 200c55.1 0 100-44.9 100-100S155.1 0 100 0zm0 189.8c-20.1 0-39.2-6.6-55.2-19.1-.9-.7-2-1.1-3.2-1.1-.5 0-.9.1-1.4.2l-27.4 7.5 9.3-29.3c.4-1.4.3-2.8-.4-4.1-7.6-13.4-11.5-28.6-11.5-44 0-49.5 40.3-89.8 89.8-89.8s89.8 40.3 89.8 89.8c0 49.6-40.3 89.9-89.8 89.9z"
+              ></path>
+            </g>
+          </svg>
+          <h2>
+            كم أحتاج من الوقت للعودة إلى ممارسة الأنشطة العادية بعد وضع البالون؟
+          </h2>
+          <p class="my-4">
+            بعد موافقة أخصائي الرعاية الصحية، يعود معظم الأشخاص إلى النشاط
+            الطبيعي خلال يوم أو يومين، ولكن قد يتعرض بعض الأشخاص لآثار جانبية
+            لفترة أطول. يمكن أن تكون فكرة جيدة أن تحصل على إجازة من العمل لأيام
+            قليلة بعد وضع البالون، أو وضع البالون يوم الخميس لترتاح في الإجازة
+            يوم الجمعة.
+          </p>
+        </div>
+        <div class="col-md-12 my-3">
+          <svg
+            width="40"
+            class="mb-5"
+            fill="#ff2d03"
+            preserveAspectRatio="xMidYMid meet"
+            data-bbox="-0.052 0 200.052 200"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-0.052 0 200.052 200"
+            role="presentation"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+                d="M95.4 137.7c-5.1 0-9.1 4-9.1 9.1 0 5 4.1 9.1 9.1 9.1 5.1 0 9.3-4.1 9.3-9.1 0-5.1-4.1-9.1-9.3-9.1z"
+              ></path>
+              <path
+                d="M98.7 39.9c-17.5 0-25.6 12.9-29 18.4l-.3.5c-.7 1.3-2.1 3.6 1.1 5.8l1.9 1.3c2.7 1.8 4.3.6 5.4-.4.4-.4.9-1.1 1.4-2 2.4-3.8 7.4-11.8 20.5-11.8 12.9 0 17.5 9.7 17.5 18.8 0 8.5-6.4 13.7-13.2 19.3-7 5.7-14.1 11.5-14.1 21.1v10.6c0 2.6 1.6 4.4 4 4.4h3.5c2.6 0 4.2-1.7 4.2-4.4v-10.4c0-4.6 4.6-8.3 9.9-12.5 7.8-6.2 17.6-13.9 17.6-28.7-.2-14.4-9.7-30-30.4-30z"
+              ></path>
+              <path
+                d="M100 0C44.9 0 0 44.9 0 100c0 16.3 4.1 32.5 11.8 47L.2 183.2c-.6 1.8-.1 3.7 1.2 5.1 1.3 1.4 3.2 1.9 5 1.4l34.1-9.3C57.9 193.2 78.4 200 100 200c55.1 0 100-44.9 100-100S155.1 0 100 0zm0 189.8c-20.1 0-39.2-6.6-55.2-19.1-.9-.7-2-1.1-3.2-1.1-.5 0-.9.1-1.4.2l-27.4 7.5 9.3-29.3c.4-1.4.3-2.8-.4-4.1-7.6-13.4-11.5-28.6-11.5-44 0-49.5 40.3-89.8 89.8-89.8s89.8 40.3 89.8 89.8c0 49.6-40.3 89.9-89.8 89.9z"
+              ></path>
+            </g>
+          </svg>
+          <h2>
+        هل سيعرف الآخرون أن لدي بالون ألوريون في بطني؟
+          </h2>
+          <p class="my-4">ألوريون ايلبس تجربة سرية. ما لم تخبر الآخرين، فلن يعلم أحد أنك وضعت البالون. ليست هناك حاجة لإخبار العائلة أو الأصدقاء أو الزملاء عن ايلبس، ما لم تكن بالطبع تريد ذلك!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="all-photos container">
+      <div class="row">
+        <div class="col-md-6">
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h5>Ellite</h5>
+    </footer>
+    <script src="./js/jquary.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/parallex.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
